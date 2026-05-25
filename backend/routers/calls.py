@@ -47,7 +47,7 @@ class TranscriptRequest(BaseModel):
     customer_message: str
 
 
-NGROK_URL = "https://steadfast-untrimmed-dining.ngrok-free.dev"
+NGROK_URL = "https://aria-system-production.up.railway.app"
 
 
 @router.post("/start")
